@@ -5,9 +5,9 @@ description: "The personal writings and expressions of Grayfox, otherwise known 
 
 ## Sajay Prakash
 
-### They don't know me son
+### They dont know me son
 
-> Who's gonna carry the boats
+> Whos gonna carry the boats
 
 ---
 
