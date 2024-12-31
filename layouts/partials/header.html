@@ -27,6 +27,9 @@
       content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}"
     />
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" /> <link
     rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" /> {{ range
     .Site.Params.custom_css -}}

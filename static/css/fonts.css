@@ -1,31 +1,14 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family:
-        'Inter',
-        sans-serif,
-        'Apple Color Emoji',
-        'Segoe UI Emoji',
-        'Segoe UI Symbol';
-      }
-@supports (font-variation-settings: normal) {
-  html { font-family:
-          'Inter var',
-          sans-serif,
-          'Apple Color Emoji',
-          'Segoe UI Emoji',
-          'Segoe UI Symbol';
-        }
+html { 
+  font-family: "Geist", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
 }
 
 code {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Helvetica,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
   font-size: 85%;
 }
