@@ -1,4 +1,4 @@
-baseurl = "https://sajay.dev"
+baseurl = "https://sajay.dev/"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 languageCode = "en-us"
