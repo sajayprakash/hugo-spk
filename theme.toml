@@ -1,0 +1,18 @@
+description = "Minimal theme used on my website"
+features = ["blog"]
+homepage = "https://sajay.dev"
+license = "MIT"
+licenselink = "https://github.com/sajayprakash/website/blob/master/LICENSE.md"
+min_version = "0.18"
+name = "spk"
+tags = ["minimal", "blog", "personal", "simple", "clean", "starter", "minimalist", "darkmode"]
+
+[author]
+homepage = "https://sajay.dev"
+name = "Sajay Prakash"
+repo = "https://github.com/sajayprakash"
+
+[original]
+homepage = "https://goodroot.ca"
+name = "Kellen Evan Person"
+repo = "https://github.com/goodroot/hugo-classic"

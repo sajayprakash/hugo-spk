@@ -1,0 +1,39 @@
+baseurl = "https://sajay.dev"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+languageCode = "en-us"
+theme = "spk"
+title = "Sajay Prakash"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "dracula"
+tabWidth = 4
+
+[permalinks]
+posts = "/posts/:year/:month/:day/:slug/"
+
+[[menu.main]]
+name = "categories"
+url = "/categories/"
+weight = 1
+[[menu.main]]
+name = "tags"
+url = "/tags/"
+weight = 2
+
+[params]
+custom_css = ["css/theme-override.css"]
+description = "Full stack developer, digital minimalist, computer science student."
+footer = "&copy; {Year} Sajay Prakash | [Github](https://github.com/sajayprakash) | [Linkedin](https://www.linkedin.com/in/sajayprakash/) | [RSS](/index.xml)"
